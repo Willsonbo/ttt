@@ -6,6 +6,7 @@
 #include "game.h"
 #include "reinforcement_learning.h"
 #include "util.h"
+//實現一個基於增強學習的五子棋（Tic-Tac-Toe）遊戲代理人
 
 // Uncomment it if you want to see the log output.
 // #define VERBOSE

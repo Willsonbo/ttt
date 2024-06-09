@@ -54,7 +54,7 @@
 */
 
 #include "mt19937-64.h"
-
+//程式實作了Mersenne Twister 19937 (MT19937-64) 隨機數生成器，用於生成高質量的64位元隨機數。主要功能包括初始化種子以及生成隨機數。
 #define NN 312
 #define MM 156
 #define MATRIX_A 0xB5026F5AA96619E9ULL

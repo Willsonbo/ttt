@@ -17,7 +17,7 @@ _Static_assert(GOAL <= BOARD_SIZE, "Goal must not be greater than board size");
 _Static_assert(GOAL > 0, "Goal must be greater than 0");
 _Static_assert(ALLOW_EXCEED == 0 || ALLOW_EXCEED == 1,
                "ALLOW_EXCEED must be a boolean that is 0 or 1");
-
+//定義線段資料結構
 const line_t lines[4] = {
     {1, 0, 0, 0, BOARD_SIZE - GOAL + 1, BOARD_SIZE},             // ROW
     {0, 1, 0, 0, BOARD_SIZE, BOARD_SIZE - GOAL + 1},             // COL

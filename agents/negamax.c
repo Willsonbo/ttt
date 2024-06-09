@@ -11,7 +11,7 @@
 #include "zobrist.h"
 
 #define MAX_SEARCH_DEPTH 6
-
+// 使用 Negamax 演算法來實現棋類遊戲的 AI 決策。
 static int history_score_sum[N_GRIDS];
 static int history_count[N_GRIDS];
 

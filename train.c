@@ -1,7 +1,7 @@
 #ifndef _GNU_SOURCE
 #define _GNU_SOURCE
 #endif
-
+//實現了一個基於增強學習的訓練代理，用於在遊戲環境中進行訓練
 #include <float.h>
 #include <math.h>
 #include <stdio.h>

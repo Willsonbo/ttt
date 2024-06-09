@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-
+//C程式的功能是模擬三種人工智慧代理（Negamax、MCTS、RL）之間的對戰
 #include "agents/mcts.h"
 #include "agents/negamax.h"
 #include "agents/reinforcement_learning.h"

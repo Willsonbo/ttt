@@ -1,5 +1,5 @@
 #pragma once
-
+//實作一個雜湊鏈表（hash list）的結構，包含了定義雜湊鏈表所需的宏和函式
 #include <stdbool.h>
 #include <stddef.h>
 
