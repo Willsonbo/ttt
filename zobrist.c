@@ -5,7 +5,7 @@
 #include "zobrist.h"
 
 uint64_t zobrist_table[N_GRIDS][2];
-
+//實作 Zobrist 哈希表，用於快速查找棋局評分或移動
 #define HASH(key) ((key) % HASH_TABLE_SIZE)
 
 static struct hlist_head *hash_table;

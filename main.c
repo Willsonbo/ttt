@@ -1,7 +1,7 @@
 #ifndef _GNU_SOURCE
 #define _GNU_SOURCE
 #endif
-
+//一個命令列下的遊戲，實現了使用者與 AI 之間的互動。主要功能包括記錄遊戲走步、輸入處理、勝負判定等，並根據不同的定義使用不同的 AI 演算法來執行遊戲策略
 #include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>

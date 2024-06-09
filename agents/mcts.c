@@ -7,7 +7,7 @@
 #include "game.h"
 #include "mcts.h"
 #include "util.h"
-
+//基於蒙特卡洛樹搜索（MCTS）演算法的遊戲AI
 struct node {
     int move;
     char player;
